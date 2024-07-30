@@ -39,13 +39,14 @@ Install the required Python packages:
 
 ## bash
 pip install flask firebase-admin faker
+
 Replace 'path/to/serviceAccountKey.json' with the actual path to your Firebase service account key in the app.py file.
 
 Run the Flask app:
 
 ## bash
 python app.py
-Step 2: Frontend Setup
+# Step 2: Frontend Setup
 Navigate to the frontend directory:
 
 ## bash
@@ -79,7 +80,8 @@ Start the React app:
 
 ## bash
 npm start
-Usage
+
+## Usage
 Open your browser and navigate to http://localhost:3000.
 Register or log in using Firebase Authentication.
 Search for doctors and book appointments.

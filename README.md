@@ -37,26 +37,26 @@ A web application for booking appointments with doctors, built using React for t
 
 Install the required Python packages:
 
-#bash
+## bash
 pip install flask firebase-admin faker
 Replace 'path/to/serviceAccountKey.json' with the actual path to your Firebase service account key in the app.py file.
 
 Run the Flask app:
 
-#bash
+## bash
 python app.py
 Step 2: Frontend Setup
 Navigate to the frontend directory:
 
-#bash
+## bash
 cd ../frontend
 Install the required npm packages:
 
-#bash
+## bash
 npm install
 Create a firebase.js file in the src directory with the following content:
 
-#javascript
+## javascript
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/firestore';
@@ -77,7 +77,7 @@ Replace the placeholders in the firebaseConfig object with your Firebase project
 
 Start the React app:
 
-#bash
+## bash
 npm start
 Usage
 Open your browser and navigate to http://localhost:3000.
